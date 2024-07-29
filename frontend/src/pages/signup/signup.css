@@ -1,0 +1,51 @@
+.login {
+  font-family: inherit;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lContainer {
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 25%;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 20px;
+}
+
+.lInput {
+  font-family: inherit;
+  height: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.lButton {
+  font-family: inherit;
+  border: none;
+  padding: 10px 20px;
+  background-color: rgb(22, 72, 128);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  /* border-radius: 5px; */
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+
+.lButton:hover {
+  background-color: rgb(67, 155, 255);
+}
+
+.err {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}

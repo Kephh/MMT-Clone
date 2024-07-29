@@ -1,0 +1,75 @@
+.loginn {
+  font-family: inherit;
+  max-width: 60%;
+  margin: auto;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.Containerr {
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* width: 50%; */
+  height: fit-content;
+  padding: 30px 50px;
+  /* border: 1px solid #000000; */
+  border-radius: 20px;
+}
+
+.bookingdetail {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  /* background-color: rgba(248, 149, 149, 0.514); */
+  background-color: rgba(149, 195, 248, 0.397);
+}
+
+.bookingdetail #details {
+  color: rgb(22, 72, 128);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+#info {
+  text-align: center;
+  font-size: 19px;
+}
+
+#entity {
+  font-family: inherit;
+  height: 30px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.lButtonn {
+  font-family: inherit;
+  border: 2px solid #eb2226;
+  padding: 10px 20px;
+  background-color: rgb(22, 72, 128);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.lButtonn:hover {
+  background-color: rgb(67, 155, 255);
+  border: 2px solid rgb(22, 72, 128);
+}
+
+.deletebtn {
+  border: none;
+  background-color: #eb2226;
+  border-radius: 5px;
+}
+
+.deletebtn:hover {
+  cursor: pointer;
+}
